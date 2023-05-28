@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NAmIgO</title>
+  <link rel="icon" type="image/x-icon" href="icon.ico">
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDoRFh7kwekwB1inteogCbsox54tnO5lMw",
+      authDomain: "namigo-00334.firebaseapp.com",
+      projectId: "namigo-00334",
+      storageBucket: "namigo-00334.appspot.com",
+      messagingSenderId: "42214038457",
+      appId: "1:42214038457:web:9b81e06b505913df54f468",
+      measurementId: "G-JWVFD76XV3"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  <style>
+    body {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-image: linear-gradient(to right, rgb(255, 145, 55), rgb(251, 56, 163)  );
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #4d47ff;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ff7070;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-image: linear-gradient(to right, blue ,cyan);
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NAmIgO</h1>
+  </header>
+  
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="videos.html">Videos</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  
+  <main>
+    <h2>About Me</h2>
+    <p>Hello myself NAmIgO. I make fan edits on my favourite stars and actors in youtube platform.</p>
+    
+    <h2>Latest Videos</h2>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1LsY1XuFI8w" title="Why so serious ? | #dc #edit #joker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OuhGYPWe1gI" title="EYE FEAST | Best locations in marvel movies | #marvel #edit #fanedit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hRNaEbLYJUY" title="Another happy landing | #marvel #edit #ironman #spiderman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T5O2zFzmewY" title="legends will not be forgotten | #paulwalker #seeyouagain" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qfHqk_UYGIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    </div>
+    
+    <h2>Contact Me</h2>
+    <p>You can gmail me to "madeinindiasrikar@gmail.com" for any queries.</p>
+  </main>
+  
+  <footer>
+    &copy; 2023 NAmIgO. All rights reserved.
+  </footer>
+</body>
+</html>
